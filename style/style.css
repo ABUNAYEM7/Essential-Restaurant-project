@@ -1,0 +1,234 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#hero{
+    font-family: Work Sans;
+    width: 100%;
+    height: 405px;
+    background-image: linear-gradient(0deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%),
+    url(../assets/hero-bg.png);
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#hero .banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    color: rgb(255, 255, 255);
+}
+#hero .subj-title{
+    Font-weight: 600;
+    Font-size: 15px;
+    opacity: 0.8;
+    line-height: 17px;
+    Letter-spacing: 0%;
+    text-align: center;
+}
+#hero .title{
+    max-width: 70%;
+    Font-weight: 700;
+    Font-size: 40px;
+    line-height: 40px;
+    Letter-spacing: 0%;
+    text-align: center;
+}
+#hero .desc{
+    max-width: 50%;
+    margin-top: 10px;
+    Font-weight: 500;
+    Font-size: 9px;
+    line-height: 14px;
+    text-align: center;
+}
+.btn-container{
+    text-align: center;
+}
+.btn{
+    margin-top: 15px;
+    color: rgb(255, 255, 255);
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 10px;
+    letter-spacing: 0%;
+    text-align: center;
+    border-radius: 4px;
+    background: rgb(82, 195, 3);
+    padding: 10px 15px;
+    border: none;
+}
+#cardbox{
+    width: 580px;
+    margin: 50px auto;
+}
+#cardbox .card-text-container{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    justify-content: center;
+    align-items: center;
+}
+#cardbox .card-subtitle{
+    font-family: Work Sans;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 12px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: rgb(16, 16, 16);
+    opacity: 0.6;
+
+}
+#cardbox .card-title{
+    color: rgb(16, 16, 16);
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    font-family: Work Sans;
+
+}
+.card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.card{
+    max-width: 200px;
+    margin: 24px 0px;
+    /* border: 2px solid black; */
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px 10px rgb(155, 153, 153);
+}
+.card .card-img-container{
+    width:200px;
+    border-radius: 4px;
+}
+.card .card-img{
+    width:100%;
+}
+.card .card-info{
+    text-align: center;
+    border-radius: 3px;
+    margin: 8px 0px;
+}
+.card-info span{
+    background: rgba(82, 195, 3, 0.15);
+    padding: 6px 15px 6px 15px;color: rgb(16, 16, 16);
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 12px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.card .card-heading{
+    margin: 10px 0px;
+    color: rgb(16, 16, 16);
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+    font-family: Work Sans;
+}
+.card .card-desc{
+    color: rgb(16, 16, 16);
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 12px;
+    letter-spacing: 0%;
+    text-align: center;
+    font-family: Work Sans;
+    opacity: 0.7;
+    margin: 10px 0px;
+    padding: 5px;
+}
+#social-box{
+    width: 90%;
+    height: 300px;
+    margin: 0 auto;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.social-left-container{
+    max-width: 50%;
+    height: 100%;
+}
+.leftbox-img{
+    max-width: 100%;
+    height: 100%;
+}
+.social-right-container{
+    max-width: 50%;
+    height: 100%;
+    padding: 5px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+.icon-image{
+    width: 24px;
+    height: 30px;
+}
+.rightbox-text{
+    margin: 70px 30px;
+}
+.rightbox-text h1{
+    color: rgb(16, 16, 16);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    font-family: Work Sans;
+    margin-bottom: 12px;
+}
+.rightbox-text p{
+    color: rgb(16, 16, 16);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0%;
+    font-family: Work Sans;
+    opacity: 0.6;
+}
+.rightbox-info{
+    width: 100%;
+    margin-top: -65px;
+    border-bottom: 1px solid rgba(16, 16, 16, 0.2);
+    border-top: 1px solid rgba(16, 16, 16, 0.2);
+    color: rgb(16, 16, 16);
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: center;
+    font-family: Work Sans;
+   
+}
+.rightbox-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-top: 40px;
+
+}
